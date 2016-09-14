@@ -326,7 +326,7 @@ a.slide_btn {
 .news-button:hover{
     color: #fff;
     background-color: crimson;
-     transition: all 0.3s ease 0.1s;
+     transition: all 0.3s ease-in-out;
      cursor: pointer;
 }
 
@@ -334,7 +334,7 @@ footer{
     width: 100%;
     height: 160px;
     box-shadow: 0 1px 7px rgba(136, 136, 136, 0.29);
-
+    background-color: rgba(220, 220, 220, 0.33);
 }
 
 footer h3{
@@ -353,7 +353,7 @@ footer div{
 
 footer a {
   color:#fff;
-  background: rgba(237, 20, 61, 0.69);
+  background: rgba(165, 164, 164, 0.69);
   border-radius:4px;
   text-align:center;
   text-decoration:none;
@@ -428,16 +428,16 @@ footer a:nth-of-type(2):before {
 content:'\f099';
 }
 footer a:nth-of-type(3):before {
-content:'\f0d5';
+content:'\f16d';
 }
 footer a:nth-of-type(4):before {
-content:'\f113';
+content:'\f16d';
 }
 a:nth-of-type(5):before {
-content:'\f17d';
+content:'\f16d';
 }
 a:nth-of-type(6):before {
-content:'\f1cb';
+content:'\f16d';
 }
 
 footer p{
