@@ -443,8 +443,71 @@ content:'\f16d';
 footer p{
    font-family: 'Merriweather Sans', sans-serif;  
     font-size: 15px;
-    width: 600px;
     color: rgba(0, 0, 0, 0.33);
-    margin-left: 380px;
-    text-align: center;
+    margin-left: 535px;
 }
+
+
+/* MOBILE */
+
+@media only screen and (max-width: 767px) {
+    .logo{
+        width: 100px;
+    }
+     header nav  {
+        margin-left: 180px;
+    }
+     .content p{
+            width: 75%;
+    margin-left: 13%;
+     }
+
+    footer div {
+        margin-left: 33%;
+    }
+    .team {
+        width: 300px;
+        margin-left: 2%;
+    }
+    .content {
+    height: 700px;
+    }
+    .signup {
+    margin-left: 5%;
+    }
+    .newsletter input {
+       padding: 2% 5% 2% 1%;
+}
+
+    footer p{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .team img:first-child {
+    margin-left: 35%;
+}
+
+    .caption{  
+          margin-left: 32px;
+
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .newsletter input {
+       padding: 10px 12px 10px 20px;
+           margin-left: 2px;
+    }
+
+    .newsletter .news-button {
+   
+    padding: 9px 16px;
+}
+
+    .slide_group a {
+       
+        margin-left: 40%;
+    }
+
+}
+
