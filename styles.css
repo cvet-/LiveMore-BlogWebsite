@@ -452,10 +452,11 @@ footer p{
 
 @media only screen and (max-width: 767px) {
     .logo{
-        width: 100px;
+        width: 150px;
+        margin-left:1px;
     }
-     header nav  {
-        margin-left: 180px;
+    header nav {
+    margin-left: 73px;
     }
      .content p{
             width: 75%;
@@ -509,5 +510,37 @@ footer p{
         margin-left: 40%;
     }
 
+}
+
+@media only screen and (max-width: 340px) {
+    header nav {
+    margin-left: 39px;
+    }
+    
+    .logo {
+    width: 150px;
+    margin-left: 1px;
+    }
+    
+    .content {
+    height: 800px;
+    }
+    .newsletter input {
+        padding: 10px 1px 10px 3px;
+    }
+    .newsletter .news-button {
+        padding: 9px 9px;
+    }
+
+    .team img:first-child {
+    margin-left: 12px;
+    }
+    .caption {
+    margin-left: 1px;
+    }
+
+    footer div {
+    margin-left: 30%;
+}
 }
 
