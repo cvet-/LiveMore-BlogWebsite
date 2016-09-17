@@ -459,7 +459,7 @@ footer p{
     margin-left: 73px;
     }
      .content p{
-            width: 75%;
+     width: auto;
     margin-left: 13%;
      }
 
@@ -467,7 +467,7 @@ footer p{
         margin-left: 33%;
     }
     .team {
-        width: 300px;
+        width: auto;
         margin-left: 2%;
     }
     .content {
@@ -523,7 +523,7 @@ footer p{
     }
     
     .content {
-    height: 800px;
+    height: auto;
     }
     .newsletter input {
         padding: 10px 1px 10px 3px;
