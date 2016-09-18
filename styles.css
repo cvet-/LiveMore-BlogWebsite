@@ -35,6 +35,7 @@ nav ul li a{
     text-decoration: none;
     color: #2d2f2e;
 }
+
 nav ul li a:hover{
      cursor: pointer;
     color: crimson;
@@ -68,7 +69,10 @@ nav ul li a:hover{
     z-index: 1000;
     -webkit-transform: translate3d(0,0,0);
 }
-
+/*.contact .nav-menu .nav-top{
+    padding-bottom: 3px;
+    box-shadow: 0 1px 1px rgba(6,8,8,.1);
+}*/
 .hero{
     height: 640px;
 }
@@ -446,6 +450,65 @@ footer p{
     color: rgba(0, 0, 0, 0.33);
     margin-left: 535px;
 }
+
+/* Contact form */
+.contact-form{
+    margin-top: 60px;
+    height: 400px;
+}
+.contact-form h3{
+     font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.33);
+    margin-top: 10px;
+    text-align: center;
+}
+.contact-form form{
+    margin-left: 520px;
+    width: 303px;
+}
+
+.contact-form form span{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #2d2f2e;
+    padding-top: 5px;
+}
+
+.contact-form  input{
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 10px 135px 10px 20px;
+    margin-top: 10px;
+    color: crimson;
+}
+
+.contact-form  textarea{
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 10px 135px 40px 20px;
+    margin-top: 10px;  
+    margin-bottom: 40px;
+    color: crimson;
+}
+
+.contact-form .send-button{
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: #fff;
+    border: 1px solid crimson;
+    color: crimson;
+    padding: 9px 45px;
+    margin-left: 95px;
+    margin-top: 30px;
+}
+
+.contact-form .send-button:hover{
+    color: #fff;
+    background-color: crimson;
+     transition: all 0.3s ease-in-out;
+     cursor: pointer;
+}
+
+
+/*End of contact form*/
 
 
 /* MOBILE */
